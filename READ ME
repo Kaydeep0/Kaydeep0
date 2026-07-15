@@ -1,0 +1,48 @@
+# Kaydeep0 — Node 34539544
+
+Institution around **GeniusFlow / Eigenstate Research / Sangat of Node 34539544**.
+
+This profile README is the **GitHub front door**. Remotes stay separate (not a monorepo). Agents: start at [geniusflow-os/AGENTS.md](https://github.com/Kaydeep0/geniusflow-os/blob/main/AGENTS.md).
+
+## Core (private runtime + spec)
+
+| Repo | Role |
+|------|------|
+| [**geniusflow-engine**](https://github.com/Kaydeep0/geniusflow-engine) | Runtime — parkash, federation metalayer, verify/package APIs |
+| [**geniusflow-os**](https://github.com/Kaydeep0/geniusflow-os) | Institution shell — GGS, DNA, ops, agent bootstrap |
+| [**sangat-canon**](https://github.com/Kaydeep0/sangat-canon) | Spec — BUILD_PLAN **v1.5.1**, canon, Rehat path |
+| [**sangat-architecture**](https://github.com/Kaydeep0/sangat-architecture) | Technical federation ledger + [institution map](https://github.com/Kaydeep0/sangat-architecture/blob/main/INSTITUTION_REPOSITORY_MAP.md) |
+
+## Public libs + surfaces
+
+| Repo | Role |
+|------|------|
+| [helixhash](https://github.com/Kaydeep0/helixhash) | Tamper-evident append-only log |
+| [witnessfield](https://github.com/Kaydeep0/witnessfield) | Witness structure protocol |
+| [eigenstate-research](https://github.com/Kaydeep0/eigenstate-research) | Public research site / reports |
+| [settlement-layer-advisory](https://github.com/Kaydeep0/settlement-layer-advisory) | Advisory commercial surface (probes engine) |
+| [Protocols-for-the-Long-Now](https://github.com/Kaydeep0/Protocols-for-the-Long-Now) | Tick Protocol / time concept |
+
+## Live wire (not GitHub repos)
+
+- Federation: https://geniusflow-federation.vercel.app/.well-known/geniusflow.json  
+- Verify / package: `/api/verify` · `/api/package`  
+- NETWORK UI: https://geniusflow-rwa.vercel.app  
+
+## One-folder checkout (agents / fresh machines)
+
+```bash
+git clone git@github.com:Kaydeep0/geniusflow-os.git
+cd geniusflow-os
+./ops/clone-constellation.sh
+```
+
+## How repos talk
+
+1. **Spec → runtime:** engine implements `sangat-canon` (engine usually ahead).  
+2. **Runtime → ledger:** `run.py network registry-doc` → `sangat-architecture`.  
+3. **Runtime → public:** publish → `eigenstate-research`; deploy → Vercel federation.  
+4. **Libs:** helixhash / witnessfield as dependencies.  
+5. **Legal Layer 6:** canon Rehat / incorporation — later; ≠ oracle 252.
+
+Map: [INSTITUTION_REPOSITORY_MAP](https://github.com/Kaydeep0/sangat-architecture/blob/main/INSTITUTION_REPOSITORY_MAP.md) · Focus: [BUILD_FOCUS_MAP_2026-07-14](https://github.com/Kaydeep0/geniusflow-engine/blob/main/docs/BUILD_FOCUS_MAP_2026-07-14.md)
