@@ -2,9 +2,11 @@
 
 Institution around **GeniusFlow / Eigenstate Research / Sangat of Node 34539544**.
 
-This profile README is the **GitHub front door**. Remotes stay separate (not a monorepo). Agents: start at [geniusflow-os/AGENTS.md](https://github.com/Kaydeep0/geniusflow-os/blob/main/AGENTS.md).
+This profile README is the **GitHub front door**. Remotes stay separate (not a monorepo). Agents with access: start at [geniusflow-os/AGENTS.md](https://github.com/Kaydeep0/geniusflow-os/blob/main/AGENTS.md).
 
-## Core (private runtime + spec)
+**Pin board (public only):** GitHub will not pin private repos on a public profile. Pin these **public** remotes: `helixhash` · `witnessfield` · `eigenstate-research` · `Kaydeep0` (this repo) · optionally `settlement-layer-advisory` · `Protocols-for-the-Long-Now`. Private core stays listed below — visible to you when logged in; others get 404 on the links (expected).
+
+## Core (private — not pin-able)
 
 | Repo | Role |
 |------|------|
@@ -13,7 +15,7 @@ This profile README is the **GitHub front door**. Remotes stay separate (not a m
 | [**sangat-canon**](https://github.com/Kaydeep0/sangat-canon) | Spec — BUILD_PLAN **v1.5.1**, canon, Rehat path |
 | [**sangat-architecture**](https://github.com/Kaydeep0/sangat-architecture) | Technical federation ledger + [institution map](https://github.com/Kaydeep0/sangat-architecture/blob/main/INSTITUTION_REPOSITORY_MAP.md) |
 
-## Public libs + surfaces
+## Public libs + surfaces (good pin set)
 
 | Repo | Role |
 |------|------|
@@ -46,3 +48,5 @@ cd geniusflow-os
 5. **Legal Layer 6:** canon Rehat / incorporation — later; ≠ oracle 252.
 
 Map: [INSTITUTION_REPOSITORY_MAP](https://github.com/Kaydeep0/sangat-architecture/blob/main/INSTITUTION_REPOSITORY_MAP.md) · Focus: [BUILD_FOCUS_MAP_2026-07-14](https://github.com/Kaydeep0/geniusflow-engine/blob/main/docs/BUILD_FOCUS_MAP_2026-07-14.md)
+
+Do **not** merge private engine/canon into a public monorepo for aesthetics — secrets, licenses, and legal timing stay separate. Constellation tree + this README = visual order; remotes stay the push targets.
